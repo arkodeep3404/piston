@@ -6,7 +6,7 @@ services:
         container_name: piston_api
         restart: always
         ports:
-            - 2000:2000
+            - 6969:6969
         volumes:
             - ./data/piston/packages:/piston/packages
         tmpfs:
